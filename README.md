@@ -3,7 +3,9 @@
 
 ---
 
-> Feature selection is crucial in machine learning as it enhances model performance by identifying the most relevant features for prediction. Using 1-dimensional decision tree classifiers for feature selection is popular due to its simplicity and interpretability. This method calculates feature importance based on how much each feature improves node purity in the tree. 
+> Feature selection is crucial in machine learning as it enhances model performance by identifying the most relevant features for prediction. Using 1-dimensional decision tree classifiers for feature selection is popular due to its simplicity and interpretability. This method calculates feature importance based on how much each feature improves node purity in the tree.
+
+---
 
 💡 The process involves training a decision tree on each feature, ranking them by performance, and selecting those with the highest predictive power for further training. This focus on informative features leads to better model interpretability and generalization.
 
